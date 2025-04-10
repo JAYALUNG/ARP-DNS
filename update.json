@@ -1,5 +1,5 @@
 {
-    "latest_version": "1.2.3",
-    "update_url": "https://github.com/.../setup.exe",
-    "changelog": "- Fixed critical bug\n- Added new feature"
+    "latest_version": "1.0.1",
+    "update_url": "https://github.com/JAYALUNG/arp-dns-updater/releases/latest/download/ARP-DNS-Setup.exe",
+    "changelog": "Bug fixes and performance improvements:\n- Fixed ARP cache clearing issue\n- Added DNS server validation\n- Improved error handling"
 }
