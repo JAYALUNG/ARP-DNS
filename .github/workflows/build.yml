@@ -1,1 +1,29 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Publish and Rename
+      run: |
+        dotnet publish -c Release -p:PublishSingleFile=true --self-contained false
+        cd bin/Release/net8.0-windows/publish
+        ren ARP-DNS.exe ARP-DNS-Setup.exe
+
+    - name: Upload Release Asset
+      uses: softprops/action-gh-release@v1
+      with:
+        files: ./bin/Release/net8.0-windows/publish/ARP-DNS-Setup.exe
 
