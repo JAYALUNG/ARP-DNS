@@ -1,5 +1,5 @@
 {
-    "latest_version": "0.8.0.0",
-    "update_url": "https://github.com/JAYALUNG/arp-dns-updater/releases/latest/download/ARP-DNS-Setup.exe",
-    "changelog": "Initial Release with only Toggle UI"
+    "latest_version": "1.0.0",
+    "update_url": "https://github.com/JAYALUNG/arp-dns-updater/releases/download/v1.0.0/ARP-DNS-Setup.exe",
+    "changelog": "Initial release"
 }
