@@ -1,2 +1,2 @@
-# arp-dns-updater
-Update deployment for ARP-DNS
+# ARP-DNS
+Application and Update deployment for ARP-DNS
