@@ -1,5 +1,7 @@
 {
-    "latest_version": "0.8.0.0",
-    "update_url": "https://github.com/JAYALUNG/ARP-DNS/releases/download/v0.8.0/ARP-DNS.setup.msi",
-    "changelog": "Initial Test Build for multiple users"
+    "latest_version": "0.9.8.0",
+    "update_url": "https://github.com/JAYALUNG/ARP-DNS/releases/download/v0.9.8/ARP-DNS.setup.msi",
+    "changelog": "Fixes multiple tray Icons Issue.
+Making sure that the toggle is on upon restart.
+Disabled multiple instances of running application via Mutex."
 }
