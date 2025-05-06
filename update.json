@@ -1,5 +1,5 @@
 {
-    "latest_version": "0.9.8.0",
-    "update_url": "https://github.com/JAYALUNG/ARP-DNS/releases/download/v0.9.8/ARP-DNS.setup.msi",
-    "changelog": "Fixes known bugs and updated the versioning"
+    "latest_version": "1.0.0.0",
+    "update_url": "https://github.com/JAYALUNG/ARP-DNS/releases/download/v1.0.0/ARP-DNS.setup.msi",
+    "changelog": "This deployment-ready version features a new and improved UI and resolves known UI issues."
 }
